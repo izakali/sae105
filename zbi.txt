@@ -1,0 +1,464 @@
+02:46:56.031152 IP oklm-VirtualBox.60249 > bbox.lan.domain: 7418+ [1au] A? googlefr.lan. (41)
+02:46:56.033016 IP oklm-VirtualBox.37114 > bbox.lan.domain: 9458+ [1au] AAAA? googlefr.lan. (41)
+02:46:56.038734 IP oklm-VirtualBox.37952 > bbox.lan.domain: 19529+ [1au] PTR? 254.1.168.192.in-addr.arpa. (55)
+02:46:56.042283 IP bbox.lan.domain > oklm-VirtualBox.37952: 19529* 1/0/1 PTR bbox.lan. (77)
+02:46:56.043023 IP oklm-VirtualBox.56019 > bbox.lan.domain: 36457+ [1au] PTR? 15.2.0.10.in-addr.arpa. (51)
+02:46:56.071826 IP bbox.lan.domain > oklm-VirtualBox.56019: 36457 NXDomain*$ 0/0/1 (51)
+02:46:56.071851 IP bbox.lan.domain > oklm-VirtualBox.60249: 7418 NXDomain 0/1/1 (116)
+02:46:56.071854 IP bbox.lan.domain > oklm-VirtualBox.37114: 9458 NXDomain 0/1/1 (116)
+02:46:56.072651 IP oklm-VirtualBox.56019 > bbox.lan.domain: 36457+ PTR? 15.2.0.10.in-addr.arpa. (40)
+02:46:56.072950 IP oklm-VirtualBox.37114 > bbox.lan.domain: 9458+ AAAA? googlefr.lan. (30)
+02:46:56.073365 IP oklm-VirtualBox.60249 > bbox.lan.domain: 7418+ A? googlefr.lan. (30)
+02:46:56.075148 IP bbox.lan.domain > oklm-VirtualBox.56019: 36457 NXDomain* 0/0/0 (40)
+02:46:56.090020 IP bbox.lan.domain > oklm-VirtualBox.37114: 9458 NXDomain 0/1/0 (105)
+02:46:56.133358 IP bbox.lan.domain > oklm-VirtualBox.60249: 7418 NXDomain 0/1/0 (105)
+02:47:01.014433 IP oklm-VirtualBox.41995 > bbox.lan.domain: 5889+ [1au] A? google.fr. (38)
+02:47:01.014594 IP oklm-VirtualBox.38102 > bbox.lan.domain: 47084+ [1au] AAAA? google.fr. (38)
+02:47:01.066247 IP bbox.lan.domain > oklm-VirtualBox.41995: 5889 1/0/1 A 142.251.37.195 (54)
+02:47:01.080011 IP bbox.lan.domain > oklm-VirtualBox.38102: 47084 1/0/1 AAAA 2a00:1450:4006:812::2003 (66)
+02:47:01.089543 IP oklm-VirtualBox > mrs09s15-in-f3.1e100.net: ICMP echo request, id 1, seq 1, length 64
+02:47:01.178554 IP mrs09s15-in-f3.1e100.net > oklm-VirtualBox: ICMP echo reply, id 1, seq 1, length 64
+02:47:01.179254 IP oklm-VirtualBox.35231 > bbox.lan.domain: 20742+ [1au] PTR? 195.37.251.142.in-addr.arpa. (56)
+02:47:01.213660 ARP, Request who-has _gateway tell oklm-VirtualBox, length 28
+02:47:01.221425 IP bbox.lan.domain > oklm-VirtualBox.35231: 20742 1/0/1 PTR mrs09s15-in-f3.1e100.net. (94)
+02:47:01.221425 ARP, Reply _gateway is-at 52:54:00:12:35:02 (oui Unknown), length 46
+02:47:01.277265 IP oklm-VirtualBox.48106 > bbox.lan.domain: 51608+ [1au] PTR? 2.2.0.10.in-addr.arpa. (50)
+02:47:01.280642 IP bbox.lan.domain > oklm-VirtualBox.48106: 51608 NXDomain*$ 0/0/1 (50)
+02:47:01.280791 IP oklm-VirtualBox.48106 > bbox.lan.domain: 51608+ PTR? 2.2.0.10.in-addr.arpa. (39)
+02:47:01.284886 IP bbox.lan.domain > oklm-VirtualBox.48106: 51608 NXDomain* 0/0/0 (39)
+02:47:02.094525 IP oklm-VirtualBox > mrs09s15-in-f3.1e100.net: ICMP echo request, id 1, seq 2, length 64
+02:47:02.105128 IP mrs09s15-in-f3.1e100.net > oklm-VirtualBox: ICMP echo reply, id 1, seq 2, length 64
+02:47:03.099793 IP oklm-VirtualBox > mrs09s15-in-f3.1e100.net: ICMP echo request, id 1, seq 3, length 64
+02:47:03.113541 IP mrs09s15-in-f3.1e100.net > oklm-VirtualBox: ICMP echo reply, id 1, seq 3, length 64
+02:47:04.102971 IP oklm-VirtualBox > mrs09s15-in-f3.1e100.net: ICMP echo request, id 1, seq 4, length 64
+02:47:04.113339 IP mrs09s15-in-f3.1e100.net > oklm-VirtualBox: ICMP echo reply, id 1, seq 4, length 64
+02:48:04.560873 IP oklm-VirtualBox.52449 > bbox.lan.domain: 2894+ [1au] A? location.services.mozilla.com. (58)
+02:48:04.561299 IP oklm-VirtualBox.50963 > bbox.lan.domain: 53771+ [1au] AAAA? location.services.mozilla.com. (58)
+02:48:04.570241 IP bbox.lan.domain > oklm-VirtualBox.50963: 53771 1/1/1 CNAME locprod2-elb-us-west-2.prod.mozaws.net. (195)
+02:48:04.570267 IP bbox.lan.domain > oklm-VirtualBox.52449: 2894 4/0/1 CNAME locprod2-elb-us-west-2.prod.mozaws.net., A 44.238.194.110, A 52.11.7.173, A 54.148.110.228 (158)
+02:48:04.570479 IP oklm-VirtualBox.50497 > bbox.lan.domain: 45011+ [1au] AAAA? locprod2-elb-us-west-2.prod.mozaws.net. (67)
+02:48:04.579356 IP bbox.lan.domain > oklm-VirtualBox.50497: 45011 0/1/1 (152)
+02:48:04.581981 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [S], seq 1809307518, win 64240, options [mss 1460,sackOK,TS val 1978294575 ecr 0,nop,wscale 7], length 0
+02:48:04.624601 IP oklm-VirtualBox.37613 > bbox.lan.domain: 9845+ [1au] PTR? 110.194.238.44.in-addr.arpa. (56)
+02:48:04.659641 IP bbox.lan.domain > oklm-VirtualBox.37613: 9845 1/0/1 PTR ec2-44-238-194-110.us-west-2.compute.amazonaws.com. (120)
+02:48:04.766283 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [S.], seq 146816001, ack 1809307519, win 65535, options [mss 1460], length 0
+02:48:04.766415 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1, win 64240, length 0
+02:48:04.768475 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+02:48:04.769129 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [.], ack 518, win 65535, length 0
+02:48:04.956651 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+02:48:04.956761 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [.], ack 2921, win 62780, length 0
+02:48:04.957940 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [P.], seq 2921:3442, ack 518, win 65535, length 521
+02:48:04.958067 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [.], ack 3442, win 62780, length 0
+02:48:04.965715 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 518:644, ack 3442, win 62780, length 126
+02:48:04.966746 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [.], ack 644, win 65535, length 0
+02:48:05.151664 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [P.], seq 3442:3493, ack 644, win 65535, length 51
+02:48:05.198377 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [.], ack 3493, win 62780, length 0
+02:48:05.479980 IP oklm-VirtualBox.58689 > bbox.lan.domain: 38363+ [1au] A? ocsp.digicert.com. (46)
+02:48:05.481496 IP oklm-VirtualBox.41189 > bbox.lan.domain: 14381+ [1au] AAAA? ocsp.digicert.com. (46)
+02:48:05.506233 IP bbox.lan.domain > oklm-VirtualBox.58689: 38363 4/0/1 CNAME ocsp.edge.digicert.com., CNAME fp2e7a.wpc.2be4.phicdn.net., CNAME fp2e7a.wpc.phicdn.net., A 192.229.221.95 (173)
+02:48:05.535239 IP bbox.lan.domain > oklm-VirtualBox.41189: 14381 3/1/1 CNAME ocsp.edge.digicert.com., CNAME fp2e7a.wpc.2be4.phicdn.net., CNAME fp2e7a.wpc.phicdn.net. (223)
+02:48:05.535900 IP oklm-VirtualBox.36251 > bbox.lan.domain: 3508+ [1au] AAAA? fp2e7a.wpc.phicdn.net. (50)
+02:48:05.564908 IP bbox.lan.domain > oklm-VirtualBox.36251: 3508 0/1/1 (116)
+02:48:05.567334 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [S], seq 1346145511, win 64240, options [mss 1460,sackOK,TS val 1641589680 ecr 0,nop,wscale 7], length 0
+02:48:05.580212 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [S.], seq 146944001, ack 1346145512, win 65535, options [mss 1460], length 0
+02:48:05.580312 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [.], ack 1, win 64240, length 0
+02:48:05.581143 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [P.], seq 1:425, ack 1, win 64240, length 424: HTTP: POST / HTTP/1.1
+02:48:05.581946 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [.], ack 425, win 65535, length 0
+02:48:05.597624 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [P.], seq 1:738, ack 425, win 65535, length 737: HTTP: HTTP/1.1 200 OK
+02:48:05.597655 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [.], ack 738, win 63503, length 0
+02:48:05.669726 IP oklm-VirtualBox.41918 > bbox.lan.domain: 50473+ [1au] PTR? 95.221.229.192.in-addr.arpa. (56)
+02:48:05.683131 IP bbox.lan.domain > oklm-VirtualBox.41918: 50473 NXDomain 0/1/1 (127)
+02:48:05.683374 IP oklm-VirtualBox.41918 > bbox.lan.domain: 50473+ PTR? 95.221.229.192.in-addr.arpa. (45)
+02:48:05.712174 IP bbox.lan.domain > oklm-VirtualBox.41918: 50473 NXDomain 0/1/0 (116)
+02:48:05.725905 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 644:1082, ack 3493, win 62780, length 438
+02:48:05.730136 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [.], ack 1082, win 65535, length 0
+02:48:05.912178 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [P.], seq 3493:4053, ack 1082, win 65535, length 560
+02:48:05.912207 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [.], ack 4053, win 62780, length 0
+02:48:06.199010 IP oklm-VirtualBox.58341 > bbox.lan.domain: 7672+ [1au] A? detectportal.firefox.com. (53)
+02:48:06.199920 IP oklm-VirtualBox.39796 > bbox.lan.domain: 14954+ [1au] AAAA? detectportal.firefox.com. (53)
+02:48:06.237196 IP bbox.lan.domain > oklm-VirtualBox.58341: 7672 3/0/1 CNAME detectportal.prod.mozaws.net., CNAME prod.detectportal.prod.cloudops.mozgcp.net., A 34.107.221.82 (167)
+02:48:06.258286 IP bbox.lan.domain > oklm-VirtualBox.39796: 14954 3/0/1 CNAME detectportal.prod.mozaws.net., CNAME prod.detectportal.prod.cloudops.mozgcp.net., AAAA 2600:1901:0:38d7:: (179)
+02:48:06.259087 IP oklm-VirtualBox.55578 > 82.221.107.34.bc.googleusercontent.com.http: Flags [S], seq 1749943580, win 64240, options [mss 1460,sackOK,TS val 3352236792 ecr 0,nop,wscale 7], length 0
+02:48:06.269119 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55578: Flags [S.], seq 147136001, ack 1749943581, win 65535, options [mss 1460], length 0
+02:48:06.269224 IP oklm-VirtualBox.55578 > 82.221.107.34.bc.googleusercontent.com.http: Flags [.], ack 1, win 64240, length 0
+02:48:06.269709 IP oklm-VirtualBox.55578 > 82.221.107.34.bc.googleusercontent.com.http: Flags [P.], seq 1:302, ack 1, win 64240, length 301: HTTP: GET /canonical.html HTTP/1.1
+02:48:06.270644 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55578: Flags [.], ack 302, win 65535, length 0
+02:48:06.282022 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55578: Flags [P.], seq 1:299, ack 302, win 65535, length 298: HTTP: HTTP/1.1 200 OK
+02:48:06.282107 IP oklm-VirtualBox.55578 > 82.221.107.34.bc.googleusercontent.com.http: Flags [.], ack 299, win 63942, length 0
+02:48:06.306373 IP oklm-VirtualBox.43663 > bbox.lan.domain: 24030+ [1au] PTR? 82.221.107.34.in-addr.arpa. (55)
+02:48:06.356772 IP bbox.lan.domain > oklm-VirtualBox.43663: 24030 1/0/1 PTR 82.221.107.34.bc.googleusercontent.com. (107)
+02:48:07.117379 IP oklm-VirtualBox.40172 > bbox.lan.domain: 55542+ [1au] A? www.mozilla.org. (44)
+02:48:07.117798 IP oklm-VirtualBox.58082 > bbox.lan.domain: 46784+ [1au] AAAA? www.mozilla.org. (44)
+02:48:07.149747 IP bbox.lan.domain > oklm-VirtualBox.40172: 55542 2/0/1 CNAME www.mozorg.moz.works., A 54.192.66.86 (94)
+02:48:07.180677 IP bbox.lan.domain > oklm-VirtualBox.58082: 46784 1/1/1 CNAME www.mozorg.moz.works. (171)
+02:48:07.181072 IP oklm-VirtualBox.53972 > bbox.lan.domain: 9620+ [1au] AAAA? www.mozorg.moz.works. (49)
+02:48:07.212071 IP bbox.lan.domain > oklm-VirtualBox.53972: 9620 0/1/1 (142)
+02:48:07.212884 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [S], seq 1720047822, win 64240, options [mss 1460,sackOK,TS val 2684144275 ecr 0,nop,wscale 7], length 0
+02:48:07.225110 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [S.], seq 147264001, ack 1720047823, win 65535, options [mss 1460], length 0
+02:48:07.225219 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 1, win 64240, length 0
+02:48:07.241225 IP oklm-VirtualBox.46921 > bbox.lan.domain: 48596+ [1au] PTR? 86.66.192.54.in-addr.arpa. (54)
+02:48:07.248414 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+02:48:07.249185 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 518, win 65535, length 0
+02:48:07.260884 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+02:48:07.260991 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 2921, win 62780, length 0
+02:48:07.261381 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 2921:6015, ack 518, win 65535, length 3094
+02:48:07.261450 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 6015, win 62780, length 0
+02:48:07.264452 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 518:582, ack 6015, win 62780, length 64
+02:48:07.265221 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 582, win 65535, length 0
+02:48:07.271419 IP bbox.lan.domain > oklm-VirtualBox.46921: 48596 1/0/1 PTR server-54-192-66-86.mrs52.r.cloudfront.net. (110)
+02:48:07.273995 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 6015:6223, ack 582, win 65535, length 208
+02:48:07.316328 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 6223, win 62780, length 0
+02:48:07.346867 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 582:752, ack 6223, win 62780, length 170
+02:48:07.347807 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 752, win 65535, length 0
+02:48:07.347836 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 752:783, ack 6223, win 62780, length 31
+02:48:07.348236 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 783, win 65535, length 0
+02:48:07.356297 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 6223:6254, ack 783, win 65535, length 31
+02:48:07.356324 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 6254, win 62780, length 0
+02:48:07.416520 IP oklm-VirtualBox.48664 > bbox.lan.domain: 53306+ [1au] A? example.org. (40)
+02:48:07.422470 IP oklm-VirtualBox.58596 > bbox.lan.domain: 52547+ [1au] AAAA? example.org. (40)
+02:48:07.444829 IP bbox.lan.domain > oklm-VirtualBox.48664: 53306 1/0/1 A 93.184.216.34 (56)
+02:48:07.446255 IP oklm-VirtualBox.50521 > bbox.lan.domain: 41466+ [1au] A? ipv4only.arpa. (42)
+02:48:07.446785 IP oklm-VirtualBox.35398 > bbox.lan.domain: 57600+ [1au] AAAA? ipv4only.arpa. (42)
+02:48:07.453163 IP oklm-VirtualBox.55592 > 82.221.107.34.bc.googleusercontent.com.http: Flags [S], seq 1673990625, win 64240, options [mss 1460,sackOK,TS val 3352237986 ecr 0,nop,wscale 7], length 0
+02:48:07.464789 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55592: Flags [S.], seq 147392001, ack 1673990626, win 65535, options [mss 1460], length 0
+02:48:07.465024 IP oklm-VirtualBox.55592 > 82.221.107.34.bc.googleusercontent.com.http: Flags [.], ack 1, win 64240, length 0
+02:48:07.475144 IP bbox.lan.domain > oklm-VirtualBox.50521: 41466 2/0/1 A 192.0.0.170, A 192.0.0.171 (74)
+02:48:07.475213 IP bbox.lan.domain > oklm-VirtualBox.58596: 52547 1/0/1 AAAA 2606:2800:220:1:248:1893:25c8:1946 (68)
+02:48:07.478089 IP oklm-VirtualBox.55592 > 82.221.107.34.bc.googleusercontent.com.http: Flags [P.], seq 1:304, ack 1, win 64240, length 303: HTTP: GET /success.txt?ipv4 HTTP/1.1
+02:48:07.478806 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55592: Flags [.], ack 304, win 65535, length 0
+02:48:07.489723 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55592: Flags [P.], seq 1:217, ack 304, win 65535, length 216: HTTP: HTTP/1.1 200 OK
+02:48:07.489762 IP oklm-VirtualBox.55592 > 82.221.107.34.bc.googleusercontent.com.http: Flags [.], ack 217, win 64024, length 0
+02:48:07.504268 IP bbox.lan.domain > oklm-VirtualBox.35398: 57600 0/1/1 (99)
+02:48:07.505818 IP oklm-VirtualBox.53629 > bbox.lan.domain: 32001+ [1au] AAAA? ipv4only.arpa. (42)
+02:48:07.543748 IP bbox.lan.domain > oklm-VirtualBox.53629: 32001 0/1/1 (99)
+02:48:07.707326 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 783:1109, ack 6254, win 62780, length 326
+02:48:07.708429 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 1109, win 65535, length 0
+02:48:07.816901 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 6254:7845, ack 1109, win 65535, length 1591
+02:48:07.816962 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 7845, win 62780, length 0
+02:48:08.413937 IP oklm-VirtualBox.55294 > bbox.lan.domain: 34258+ [1au] A? contile.services.mozilla.com. (57)
+02:48:08.414194 IP oklm-VirtualBox.52007 > bbox.lan.domain: 13634+ [1au] AAAA? contile.services.mozilla.com. (57)
+02:48:08.451631 IP bbox.lan.domain > oklm-VirtualBox.55294: 34258 1/0/1 A 34.117.237.239 (73)
+02:48:08.469429 IP bbox.lan.domain > oklm-VirtualBox.52007: 13634 0/1/1 (141)
+02:48:08.471482 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [S], seq 626372619, win 64240, options [mss 1460,sackOK,TS val 2608538542 ecr 0,nop,wscale 7], length 0
+02:48:08.502047 IP oklm-VirtualBox.39314 > bbox.lan.domain: 59702+ [1au] PTR? 239.237.117.34.in-addr.arpa. (56)
+02:48:08.503573 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [S.], seq 147520001, ack 626372620, win 65535, options [mss 1460], length 0
+02:48:08.503680 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 1, win 64240, length 0
+02:48:08.506314 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+02:48:08.507692 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 518, win 65535, length 0
+02:48:08.517144 IP oklm-VirtualBox.41631 > bbox.lan.domain: 12850+ [1au] A? spocs.getpocket.com. (48)
+02:48:08.517746 IP oklm-VirtualBox.48931 > bbox.lan.domain: 21602+ [1au] AAAA? spocs.getpocket.com. (48)
+02:48:08.520224 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+02:48:08.520310 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 2921, win 62780, length 0
+02:48:08.521108 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [P.], seq 2921:4518, ack 518, win 65535, length 1597
+02:48:08.521122 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 4518, win 61320, length 0
+02:48:08.539205 IP bbox.lan.domain > oklm-VirtualBox.41631: 12850 5/0/1 CNAME proxyserverecs-1736642167.us-east-1.elb.amazonaws.Com., A 52.45.210.128, A 3.86.119.92, A 3.216.15.175, A 18.210.60.24 (179)
+02:48:08.557964 IP bbox.lan.domain > oklm-VirtualBox.48931: 21602 1/1/1 CNAME proxyserverecs-1736642167.us-east-1.elb.amazonaws.Com. (200)
+02:48:08.558508 IP oklm-VirtualBox.41081 > bbox.lan.domain: 26276+ [1au] AAAA? proxyserverecs-1736642167.us-east-1.elb.amazonaws.Com. (82)
+02:48:08.572477 IP bbox.lan.domain > oklm-VirtualBox.39314: 59702 1/0/1 PTR 239.237.117.34.bc.googleusercontent.com. (109)
+02:48:08.597125 IP bbox.lan.domain > oklm-VirtualBox.41081: 26276 0/1/1 (167)
+02:48:08.598489 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [S], seq 3435202023, win 64240, options [mss 1460,sackOK,TS val 2567932496 ecr 0,nop,wscale 7], length 0
+02:48:08.605401 IP oklm-VirtualBox.46090 > bbox.lan.domain: 63002+ [1au] PTR? 128.210.45.52.in-addr.arpa. (55)
+02:48:08.621173 IP oklm-VirtualBox.34327 > bbox.lan.domain: 35639+ [1au] A? r3.o.lencr.org. (43)
+02:48:08.621556 IP oklm-VirtualBox.35670 > bbox.lan.domain: 59711+ [1au] AAAA? r3.o.lencr.org. (43)
+02:48:08.649965 IP bbox.lan.domain > oklm-VirtualBox.46090: 63002 1/0/1 PTR ec2-52-45-210-128.compute-1.amazonaws.com. (110)
+02:48:08.656415 IP bbox.lan.domain > oklm-VirtualBox.35670: 59711 4/0/1 CNAME o.lencr.edgesuite.net., CNAME a1887.dscq.akamai.net., AAAA 2a02:26f0:b80:3::210:959f, AAAA 2a02:26f0:b80:3::210:9597 (169)
+02:48:08.656493 IP bbox.lan.domain > oklm-VirtualBox.34327: 35639 4/0/1 CNAME o.lencr.edgesuite.net., CNAME a1887.dscq.akamai.net., A 92.123.236.145, A 92.123.236.146 (145)
+02:48:08.661410 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [S], seq 4123819175, win 64240, options [mss 1460,sackOK,TS val 3609832 ecr 0,nop,wscale 7], length 0
+02:48:08.680511 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [S.], seq 147584001, ack 4123819176, win 65535, options [mss 1460], length 0
+02:48:08.680570 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [.], ack 1, win 64240, length 0
+02:48:08.680819 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [P.], seq 1:424, ack 1, win 64240, length 423: HTTP: POST / HTTP/1.1
+02:48:08.681588 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [.], ack 424, win 65535, length 0
+02:48:08.696985 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [P.], seq 1:889, ack 424, win 65535, length 888: HTTP: HTTP/1.1 200 OK
+02:48:08.697017 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [.], ack 889, win 63936, length 0
+02:48:08.702514 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [S.], seq 147648001, ack 3435202024, win 65535, options [mss 1460], length 0
+02:48:08.702620 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 1, win 64240, length 0
+02:48:08.726678 IP oklm-VirtualBox.43180 > bbox.lan.domain: 53607+ [1au] PTR? 145.236.123.92.in-addr.arpa. (56)
+02:48:08.755388 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 1:518, ack 1, win 64240, length 517
+02:48:08.755966 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 518, win 65535, length 0
+02:48:08.768079 IP bbox.lan.domain > oklm-VirtualBox.43180: 53607 1/0/1 PTR a92-123-236-145.deploy.static.akamaitechnologies.com. (122)
+02:48:08.779583 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 1109:1189, ack 7845, win 62780, length 80
+02:48:08.780562 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 1189, win 65535, length 0
+02:48:08.817224 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 518:582, ack 4518, win 62780, length 64
+02:48:08.818496 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 582, win 65535, length 0
+02:48:08.829465 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [P.], seq 4518:5104, ack 582, win 65535, length 586
+02:48:08.829491 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 5104, win 62780, length 0
+02:48:08.846667 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 582:752, ack 5104, win 62780, length 170
+02:48:08.847392 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 752, win 65535, length 0
+02:48:08.847707 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 752:992, ack 5104, win 62780, length 240
+02:48:08.848586 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 992, win 65535, length 0
+02:48:08.849592 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 992:1023, ack 5104, win 62780, length 31
+02:48:08.850665 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 1023, win 65535, length 0
+02:48:08.886249 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [P.], seq 5104:5135, ack 1023, win 65535, length 31
+02:48:08.886277 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], seq 1:2921, ack 518, win 65535, length 2920
+02:48:08.886295 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 2921, win 62780, length 0
+02:48:08.887071 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [P.], seq 2921:5420, ack 518, win 65535, length 2499
+02:48:08.887080 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 5420, win 61320, length 0
+02:48:08.891219 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 518:644, ack 5420, win 62780, length 126
+02:48:08.892242 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 644, win 65535, length 0
+02:48:08.927798 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 5135, win 62780, length 0
+02:48:08.990625 IP oklm-VirtualBox.34817 > bbox.lan.domain: 35800+ [1au] A? ocsp.r2m02.amazontrust.com. (55)
+02:48:08.990824 IP oklm-VirtualBox.33785 > bbox.lan.domain: 12624+ [1au] AAAA? ocsp.r2m02.amazontrust.com. (55)
+02:48:08.996342 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [P.], seq 5420:5660, ack 644, win 65535, length 240
+02:48:09.015971 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [P.], seq 5135:6741, ack 1023, win 65535, length 1606
+02:48:09.016058 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 6741, win 62780, length 0
+02:48:09.016113 IP bbox.lan.domain > oklm-VirtualBox.34817: 35800 1/0/1 A 54.192.65.12 (71)
+02:48:09.016415 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 1023:1062, ack 6741, win 62780, length 39
+02:48:09.017142 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 1062, win 65535, length 0
+02:48:09.023276 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 7845:12523, ack 1189, win 65535, length 4678
+02:48:09.023372 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 12523, win 61320, length 0
+02:48:09.023428 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 12523:13521, ack 1189, win 65535, length 998
+02:48:09.023436 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 13521, win 60322, length 0
+02:48:09.023480 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 13521:17102, ack 1189, win 65535, length 3581
+02:48:09.023486 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 17102, win 56940, length 0
+02:48:09.027965 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [P.], seq 17102:25316, ack 1189, win 65535, length 8214
+02:48:09.028048 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 25316, win 58400, length 0
+02:48:09.029657 IP bbox.lan.domain > oklm-VirtualBox.33785: 12624 0/1/1 (154)
+02:48:09.030534 IP oklm-VirtualBox.46684 > server-54-192-65-12.mrs52.r.cloudfront.net.http: Flags [S], seq 2471862802, win 64240, options [mss 1460,sackOK,TS val 151236787 ecr 0,nop,wscale 7], length 0
+02:48:09.040163 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 5660, win 62780, length 0
+02:48:09.040324 IP server-54-192-65-12.mrs52.r.cloudfront.net.http > oklm-VirtualBox.46684: Flags [S.], seq 147776001, ack 2471862803, win 65535, options [mss 1460], length 0
+02:48:09.040420 IP oklm-VirtualBox.46684 > server-54-192-65-12.mrs52.r.cloudfront.net.http: Flags [.], ack 1, win 64240, length 0
+02:48:09.040751 IP oklm-VirtualBox.44918 > bbox.lan.domain: 38567+ [1au] PTR? 12.65.192.54.in-addr.arpa. (54)
+02:48:09.041077 IP oklm-VirtualBox.46684 > server-54-192-65-12.mrs52.r.cloudfront.net.http: Flags [P.], seq 1:434, ack 1, win 64240, length 433: HTTP: POST / HTTP/1.1
+02:48:09.041399 IP server-54-192-65-12.mrs52.r.cloudfront.net.http > oklm-VirtualBox.46684: Flags [.], ack 434, win 65535, length 0
+02:48:09.053637 IP bbox.lan.domain > oklm-VirtualBox.44918: 38567 1/0/1 PTR server-54-192-65-12.mrs52.r.cloudfront.net. (110)
+02:48:09.056940 IP server-54-192-65-12.mrs52.r.cloudfront.net.http > oklm-VirtualBox.46684: Flags [P.], seq 1:945, ack 434, win 65535, length 944: HTTP: HTTP/1.1 200 OK
+02:48:09.057026 IP oklm-VirtualBox.46684 > server-54-192-65-12.mrs52.r.cloudfront.net.http: Flags [.], ack 945, win 63296, length 0
+02:48:09.698248 IP oklm-VirtualBox.40349 > bbox.lan.domain: 13341+ [1au] A? firefox.settings.services.mozilla.com. (66)
+02:48:09.698497 IP oklm-VirtualBox.51559 > bbox.lan.domain: 4881+ [1au] AAAA? firefox.settings.services.mozilla.com. (66)
+02:48:09.710945 IP bbox.lan.domain > oklm-VirtualBox.40349: 13341 2/0/1 CNAME prod.remote-settings.prod.webservices.mozgcp.net., A 34.149.100.209 (144)
+02:48:09.738811 IP bbox.lan.domain > oklm-VirtualBox.51559: 4881 1/1/1 CNAME prod.remote-settings.prod.webservices.mozgcp.net. (224)
+02:48:09.739219 IP oklm-VirtualBox.54311 > bbox.lan.domain: 25073+ [1au] AAAA? prod.remote-settings.prod.webservices.mozgcp.net. (77)
+02:48:09.768561 IP bbox.lan.domain > oklm-VirtualBox.54311: 25073 0/1/1 (173)
+02:48:09.785689 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 644:821, ack 5660, win 62780, length 177
+02:48:09.785912 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 821:1075, ack 5660, win 62780, length 254
+02:48:09.786234 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 1075:1342, ack 5660, win 62780, length 267
+02:48:09.786474 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [S], seq 2863609417, win 64240, options [mss 1460,sackOK,TS val 3215271624 ecr 0,nop,wscale 7], length 0
+02:48:09.786560 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 821, win 65535, length 0
+02:48:09.786573 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 1075, win 65535, length 0
+02:48:09.786950 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 1342, win 65535, length 0
+02:48:09.796850 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [S.], seq 147904001, ack 2863609418, win 65535, options [mss 1460], length 0
+02:48:09.796960 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 1, win 64240, length 0
+02:48:09.797560 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 1:219, ack 1, win 64240, length 218
+02:48:09.798256 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 219, win 65535, length 0
+02:48:09.822114 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], seq 1:2921, ack 219, win 65535, length 2920
+02:48:09.822207 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 2921, win 62780, length 0
+02:48:09.823062 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 2921:4473, ack 219, win 65535, length 1552
+02:48:09.823152 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 4473, win 62780, length 0
+02:48:09.824276 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 219:312, ack 4473, win 62780, length 93
+02:48:09.825076 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 312, win 65535, length 0
+02:48:09.837422 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 4473:4837, ack 312, win 65535, length 364
+02:48:09.837746 IP oklm-VirtualBox.41640 > bbox.lan.domain: 38728+ [1au] PTR? 209.100.149.34.in-addr.arpa. (56)
+02:48:09.880277 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 4837, win 62780, length 0
+02:48:09.890554 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [P.], seq 5660:5698, ack 1342, win 65535, length 38
+02:48:09.890655 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 5698, win 62780, length 0
+02:48:09.902994 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [P.], seq 5698:7517, ack 1342, win 65535, length 1819
+02:48:09.903093 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 7517, win 62780, length 0
+02:48:09.906740 IP bbox.lan.domain > oklm-VirtualBox.41640: 38728 1/0/1 PTR 209.100.149.34.bc.googleusercontent.com. (109)
+02:48:10.119704 IP oklm-VirtualBox.55121 > bbox.lan.domain: 16663+ [1au] A? incoming.telemetry.mozilla.org. (59)
+02:48:10.120485 IP oklm-VirtualBox.46298 > bbox.lan.domain: 18427+ [1au] AAAA? incoming.telemetry.mozilla.org. (59)
+02:48:10.124139 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [P.], seq 424:847, ack 889, win 63936, length 423: HTTP: POST / HTTP/1.1
+02:48:10.125231 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [.], ack 847, win 65535, length 0
+02:48:10.155434 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [P.], seq 889:1777, ack 847, win 65535, length 888: HTTP: HTTP/1.1 200 OK
+02:48:10.155687 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [.], ack 1777, win 63936, length 0
+02:48:10.155778 IP bbox.lan.domain > oklm-VirtualBox.55121: 16663 2/0/1 CNAME telemetry-incoming.r53-2.services.mozilla.com., A 34.120.208.123 (134)
+02:48:10.171962 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 312:489, ack 4837, win 62780, length 177
+02:48:10.174197 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 489:815, ack 4837, win 62780, length 326
+02:48:10.174338 IP bbox.lan.domain > oklm-VirtualBox.46298: 18427 1/1/1 CNAME telemetry-incoming.r53-2.services.mozilla.com. (203)
+02:48:10.174364 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 489, win 65535, length 0
+02:48:10.175137 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 815, win 65535, length 0
+02:48:10.175166 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 815:853, ack 4837, win 62780, length 38
+02:48:10.175879 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 853, win 65535, length 0
+02:48:10.176572 IP oklm-VirtualBox.46376 > bbox.lan.domain: 8655+ [1au] AAAA? telemetry-incoming.r53-2.services.mozilla.com. (74)
+02:48:10.195038 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 4837:4875, ack 853, win 65535, length 38
+02:48:10.195117 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 4875, win 62780, length 0
+02:48:10.195182 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 4875:5523, ack 853, win 65535, length 648
+02:48:10.195188 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 5523, win 62780, length 0
+02:48:10.195399 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 853:899, ack 5523, win 62780, length 46
+02:48:10.196167 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 899, win 65535, length 0
+02:48:10.202084 IP bbox.lan.domain > oklm-VirtualBox.46376: 8655 0/1/1 (159)
+02:48:10.202997 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [S], seq 3783550873, win 64240, options [mss 1460,sackOK,TS val 2441744173 ecr 0,nop,wscale 7], length 0
+02:48:10.203407 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [S], seq 1450809203, win 64240, options [mss 1460,sackOK,TS val 2441744173 ecr 0,nop,wscale 7], length 0
+02:48:10.214404 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [S.], seq 148032001, ack 1450809204, win 65535, options [mss 1460], length 0
+02:48:10.214580 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 1, win 64240, length 0
+02:48:10.214638 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [S.], seq 148096001, ack 3783550874, win 65535, options [mss 1460], length 0
+02:48:10.214649 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 1, win 64240, length 0
+02:48:10.214897 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1:212, ack 1, win 64240, length 211
+02:48:10.215099 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1:212, ack 1, win 64240, length 211
+02:48:10.216153 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 212, win 65535, length 0
+02:48:10.216171 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [.], ack 212, win 65535, length 0
+02:48:10.227840 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], seq 1:2921, ack 212, win 65535, length 2920
+02:48:10.227922 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 2921, win 62780, length 0
+02:48:10.227979 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [.], seq 1:2921, ack 212, win 65535, length 2920
+02:48:10.227987 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 2921, win 62780, length 0
+02:48:10.228518 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [P.], seq 2921:3434, ack 212, win 65535, length 513
+02:48:10.228650 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 3434, win 62780, length 0
+02:48:10.228754 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [P.], seq 2921:3434, ack 212, win 65535, length 513
+02:48:10.228768 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 3434, win 62780, length 0
+02:48:10.230295 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 212:305, ack 3434, win 62780, length 93
+02:48:10.231656 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 305, win 65535, length 0
+02:48:10.232403 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 212:305, ack 3434, win 62780, length 93
+02:48:10.233172 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [.], ack 305, win 65535, length 0
+02:48:10.242819 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [P.], seq 3434:3798, ack 305, win 65535, length 364
+02:48:10.242834 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [P.], seq 3434:3798, ack 305, win 65535, length 364
+02:48:10.257638 IP oklm-VirtualBox.58200 > bbox.lan.domain: 20771+ [1au] PTR? 123.208.120.34.in-addr.arpa. (56)
+02:48:10.258780 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [P.], seq 425:849, ack 738, win 63503, length 424: HTTP: POST / HTTP/1.1
+02:48:10.258903 IP oklm-VirtualBox.55639 > bbox.lan.domain: 15436+ [1au] AAAA? fp2e7a.wpc.phicdn.net. (50)
+02:48:10.260670 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [.], ack 849, win 65535, length 0
+02:48:10.273230 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [P.], seq 738:1475, ack 849, win 65535, length 737: HTTP: HTTP/1.1 200 OK
+02:48:10.273263 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [.], ack 1475, win 63503, length 0
+02:48:10.283761 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 3798, win 62780, length 0
+02:48:10.284143 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 3798, win 62780, length 0
+02:48:10.314838 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [P.], seq 849:1273, ack 1475, win 63503, length 424: HTTP: POST / HTTP/1.1
+02:48:10.324603 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [.], ack 1273, win 65535, length 0
+02:48:10.324621 IP bbox.lan.domain > oklm-VirtualBox.55639: 15436 0/1/1 (116)
+02:48:10.327709 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [P.], seq 1475:2212, ack 1273, win 65535, length 737: HTTP: HTTP/1.1 200 OK
+02:48:10.332476 IP bbox.lan.domain > oklm-VirtualBox.58200: 20771 1/0/1 PTR 123.208.120.34.bc.googleusercontent.com. (109)
+02:48:10.371820 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [.], ack 2212, win 63503, length 0
+02:48:10.387713 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 305:482, ack 3798, win 62780, length 177
+02:48:10.388254 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 482, win 65535, length 0
+02:48:10.388729 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 482:838, ack 3798, win 62780, length 356
+02:48:10.389027 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 838:1162, ack 3798, win 62780, length 324
+02:48:10.389267 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 838, win 65535, length 0
+02:48:10.389595 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1162, win 65535, length 0
+02:48:10.389771 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1162:1200, ack 3798, win 62780, length 38
+02:48:10.390544 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1200, win 65535, length 0
+02:48:10.394029 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 305:499, ack 3798, win 62780, length 194
+02:48:10.394890 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1200:1330, ack 3798, win 62780, length 130
+02:48:10.395220 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1330:1692, ack 3798, win 62780, length 362
+02:48:10.395638 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [FP.], seq 499:530, ack 3798, win 62780, length 31
+02:48:10.395762 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [.], ack 499, win 65535, length 0
+02:48:10.395779 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1330, win 65535, length 0
+02:48:10.395782 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1692, win 65535, length 0
+02:48:10.396129 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [.], ack 531, win 65535, length 0
+02:48:10.399407 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [P.], seq 3798:3836, ack 1692, win 65535, length 38
+02:48:10.399789 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 3836, win 62780, length 0
+02:48:10.404445 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54284: Flags [P.], seq 3798:3836, ack 531, win 65535, length 38
+02:48:10.404468 IP oklm-VirtualBox.54284 > 123.208.120.34.bc.googleusercontent.com.https: Flags [R], seq 3783551404, win 0, length 0
+02:48:10.550148 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 899:1057, ack 5523, win 62780, length 158
+02:48:10.552773 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 1057, win 65535, length 0
+02:48:10.561656 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 5523:8457, ack 1057, win 65535, length 2934
+02:48:10.561683 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 8457, win 62780, length 0
+02:48:10.563388 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 8457:16929, ack 1057, win 65535, length 8472
+02:48:10.563413 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], seq 16929:19849, ack 1057, win 65535, length 2920
+02:48:10.563819 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 19849, win 56940, length 0
+02:48:10.564092 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 19849:21165, ack 1057, win 65535, length 1316
+02:48:10.564099 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 21165:32461, ack 1057, win 65535, length 11296
+02:48:10.564497 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 32461, win 48180, length 0
+02:48:10.565303 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 32461:38109, ack 1057, win 65535, length 5648
+02:48:10.565336 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 38109, win 61320, length 0
+02:48:10.574092 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], seq 38109:54169, ack 1057, win 65535, length 16060
+02:48:10.574403 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 54169, win 54020, length 0
+02:48:10.574678 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 54169:55053, ack 1057, win 65535, length 884
+02:48:10.576419 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 55053:69173, ack 1057, win 65535, length 14120
+02:48:10.576447 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 69173, win 55480, length 0
+02:48:10.577374 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 69173:81881, ack 1057, win 65535, length 12708
+02:48:10.577436 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 81881:83293, ack 1057, win 65535, length 1412
+02:48:10.577551 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 83293, win 62780, length 0
+02:48:10.579390 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 83293:96001, ack 1057, win 65535, length 12708
+02:48:10.579418 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 96001, win 65535, length 0
+02:48:10.580769 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 96001:105885, ack 1057, win 65535, length 9884
+02:48:10.580795 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 105885, win 65535, length 0
+02:48:10.584439 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 105885:111533, ack 1057, win 65535, length 5648
+02:48:10.584469 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 111533, win 65535, length 0
+02:48:10.587430 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 111533:127065, ack 1057, win 65535, length 15532
+02:48:10.587469 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 127065, win 65535, length 0
+02:48:10.594028 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 127065:135537, ack 1057, win 65535, length 8472
+02:48:10.594092 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 135537, win 65535, length 0
+02:48:10.594609 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 135537:152481, ack 1057, win 65535, length 16944
+02:48:10.594617 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 152481, win 65535, length 0
+02:48:10.594771 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], seq 152481:162701, ack 1057, win 65535, length 10220
+02:48:10.594779 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 162701, win 65535, length 0
+02:48:10.595173 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [P.], seq 162701:165478, ack 1057, win 65535, length 2777
+02:48:10.595181 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 165478, win 65535, length 0
+02:48:10.596838 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 1057:1103, ack 165478, win 65535, length 46
+02:48:10.597661 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 1103, win 65535, length 0
+02:48:10.620120 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [P.], seq 3836:4554, ack 1692, win 65535, length 718
+02:48:10.620149 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 4554, win 62780, length 0
+02:48:10.620788 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1692:1738, ack 4554, win 62780, length 46
+02:48:10.621396 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1738, win 65535, length 0
+02:48:10.624352 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [P.], seq 4554:4698, ack 1738, win 65535, length 144
+02:48:10.672851 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 4698, win 62780, length 0
+02:48:10.736741 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1738:1784, ack 4698, win 62780, length 46
+02:48:10.737678 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 1062:1101, ack 6741, win 62780, length 39
+02:48:10.738983 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 1342:1388, ack 7517, win 62780, length 46
+02:48:10.739611 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 1189:1228, ack 25316, win 62780, length 39
+02:48:10.739735 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 1103:1149, ack 165478, win 65535, length 46
+02:48:10.739918 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [P.], seq 1784:1815, ack 4698, win 62780, length 31
+02:48:10.739979 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [F.], seq 1815, ack 4698, win 62780, length 0
+02:48:10.740182 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1784, win 65535, length 0
+02:48:10.740138 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [P.], seq 1149:1180, ack 165478, win 65535, length 31
+02:48:10.740201 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 1101, win 65535, length 0
+02:48:10.740208 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 1388, win 65535, length 0
+02:48:10.740210 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 1228, win 65535, length 0
+02:48:10.740213 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 1149, win 65535, length 0
+02:48:10.740811 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [F.], seq 1180, ack 165478, win 65535, length 0
+02:48:10.741130 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1815, win 65535, length 0
+02:48:10.741139 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [.], ack 1816, win 65535, length 0
+02:48:10.741089 IP oklm-VirtualBox.46684 > server-54-192-65-12.mrs52.r.cloudfront.net.http: Flags [F.], seq 434, ack 945, win 63296, length 0
+02:48:10.741157 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 1180, win 65535, length 0
+02:48:10.741167 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [F.], seq 847, ack 1777, win 63936, length 0
+02:48:10.741316 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [P.], seq 1388:1419, ack 7517, win 62780, length 31
+02:48:10.741374 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [F.], seq 1419, ack 7517, win 62780, length 0
+02:48:10.741525 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [.], ack 1181, win 65535, length 0
+02:48:10.741542 IP server-54-192-65-12.mrs52.r.cloudfront.net.http > oklm-VirtualBox.46684: Flags [.], ack 435, win 65535, length 0
+02:48:10.741550 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [.], ack 848, win 65535, length 0
+02:48:10.742021 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 1419, win 65535, length 0
+02:48:10.742027 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [.], ack 1420, win 65535, length 0
+02:48:10.756156 IP 123.208.120.34.bc.googleusercontent.com.https > oklm-VirtualBox.54294: Flags [F.], seq 4698, ack 1816, win 65535, length 0
+02:48:10.756182 IP oklm-VirtualBox.54294 > 123.208.120.34.bc.googleusercontent.com.https: Flags [.], ack 4699, win 62780, length 0
+02:48:10.756294 IP 209.100.149.34.bc.googleusercontent.com.https > oklm-VirtualBox.50386: Flags [F.], seq 165478, ack 1181, win 65535, length 0
+02:48:10.756301 IP oklm-VirtualBox.50386 > 209.100.149.34.bc.googleusercontent.com.https: Flags [.], ack 165479, win 31152, length 0
+02:48:10.756344 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [P.], seq 1101:1125, ack 6741, win 62780, length 24
+02:48:10.756345 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [F.], seq 1125, ack 6741, win 62780, length 0
+02:48:10.756389 IP server-54-192-65-12.mrs52.r.cloudfront.net.http > oklm-VirtualBox.46684: Flags [F.], seq 945, ack 435, win 65535, length 0
+02:48:10.756397 IP oklm-VirtualBox.46684 > server-54-192-65-12.mrs52.r.cloudfront.net.http: Flags [.], ack 946, win 63296, length 0
+02:48:10.756440 IP a92-123-236-145.deploy.static.akamaitechnologies.com.http > oklm-VirtualBox.51226: Flags [F.], seq 1777, ack 848, win 65535, length 0
+02:48:10.756447 IP oklm-VirtualBox.51226 > a92-123-236-145.deploy.static.akamaitechnologies.com.http: Flags [.], ack 1778, win 63936, length 0
+02:48:10.756489 IP oklm-VirtualBox.55592 > 82.221.107.34.bc.googleusercontent.com.http: Flags [F.], seq 304, ack 217, win 64024, length 0
+02:48:10.756492 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [P.], seq 1228:1252, ack 25316, win 62780, length 24
+02:48:10.756493 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [F.], seq 1252, ack 25316, win 62780, length 0
+02:48:10.756518 IP oklm-VirtualBox.55578 > 82.221.107.34.bc.googleusercontent.com.http: Flags [F.], seq 302, ack 299, win 63942, length 0
+02:48:10.756629 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [F.], seq 1273, ack 2212, win 63503, length 0
+02:48:10.756741 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1082:1113, ack 4053, win 62780, length 31
+02:48:10.756803 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [F.], seq 1113, ack 4053, win 62780, length 0
+02:48:10.756936 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 1125, win 65535, length 0
+02:48:10.756948 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [.], ack 1126, win 65535, length 0
+02:48:10.756964 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55592: Flags [.], ack 305, win 65535, length 0
+02:48:10.756970 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 1252, win 65535, length 0
+02:48:10.756973 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [.], ack 1253, win 65535, length 0
+02:48:10.757923 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55578: Flags [.], ack 303, win 65535, length 0
+02:48:10.757950 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [.], ack 1274, win 65535, length 0
+02:48:10.757957 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [.], ack 1113, win 65535, length 0
+02:48:10.757960 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [.], ack 1114, win 65535, length 0
+02:48:10.767282 IP 239.237.117.34.bc.googleusercontent.com.https > oklm-VirtualBox.44280: Flags [F.], seq 6741, ack 1126, win 65535, length 0
+02:48:10.767309 IP oklm-VirtualBox.44280 > 239.237.117.34.bc.googleusercontent.com.https: Flags [.], ack 6742, win 62780, length 0
+02:48:10.769586 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55592: Flags [F.], seq 217, ack 305, win 65535, length 0
+02:48:10.769615 IP oklm-VirtualBox.55592 > 82.221.107.34.bc.googleusercontent.com.http: Flags [.], ack 218, win 64024, length 0
+02:48:10.769668 IP server-54-192-66-86.mrs52.r.cloudfront.net.https > oklm-VirtualBox.34694: Flags [F.], seq 25316, ack 1253, win 65535, length 0
+02:48:10.769675 IP oklm-VirtualBox.34694 > server-54-192-66-86.mrs52.r.cloudfront.net.https: Flags [.], ack 25317, win 62780, length 0
+02:48:10.769717 IP 82.221.107.34.bc.googleusercontent.com.http > oklm-VirtualBox.55578: Flags [F.], seq 299, ack 303, win 65535, length 0
+02:48:10.769724 IP oklm-VirtualBox.55578 > 82.221.107.34.bc.googleusercontent.com.http: Flags [.], ack 300, win 63942, length 0
+02:48:10.775906 IP 192.229.221.95.http > oklm-VirtualBox.58244: Flags [F.], seq 2212, ack 1274, win 65535, length 0
+02:48:10.775931 IP oklm-VirtualBox.58244 > 192.229.221.95.http: Flags [.], ack 2213, win 63503, length 0
+02:48:10.866683 IP ec2-52-45-210-128.compute-1.amazonaws.com.https > oklm-VirtualBox.55492: Flags [F.], seq 7517, ack 1420, win 65535, length 0
+02:48:10.866726 IP oklm-VirtualBox.55492 > ec2-52-45-210-128.compute-1.amazonaws.com.https: Flags [.], ack 7518, win 62780, length 0
+02:48:10.944216 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [P.], seq 4053:4084, ack 1114, win 65535, length 31
+02:48:10.944241 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [R], seq 1809308632, win 0, length 0
+02:48:10.944298 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [F.], seq 4084, ack 1114, win 65535, length 0
+02:48:10.944305 IP oklm-VirtualBox.56306 > ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https: Flags [R], seq 1809308632, win 0, length 0
+02:48:10.946753 IP ec2-44-238-194-110.us-west-2.compute.amazonaws.com.https > oklm-VirtualBox.56306: Flags [R.], seq 4148151295, ack 1114, win 0, length 0
+02:48:23.479361 IP oklm-VirtualBox.55667 > bbox.lan.domain: 41901+ [1au] AAAA? metrics.ubuntu.com. (47)
+02:48:23.514394 IP bbox.lan.domain > oklm-VirtualBox.55667: 41901 0/1/1 (111)
+02:48:23.516167 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706724201 ecr 0,nop,wscale 7], length 0
+02:48:23.581110 IP oklm-VirtualBox.39040 > bbox.lan.domain: 3308+ [1au] PTR? 48.33.213.162.in-addr.arpa. (55)
+02:48:23.671139 IP bbox.lan.domain > oklm-VirtualBox.39040: 3308 NXDomain 0/1/1 (119)
+02:48:23.673577 IP oklm-VirtualBox.39040 > bbox.lan.domain: 3308+ PTR? 48.33.213.162.in-addr.arpa. (44)
+02:48:23.720395 IP bbox.lan.domain > oklm-VirtualBox.39040: 3308 NXDomain 0/1/0 (108)
+02:48:24.532120 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706725217 ecr 0,nop,wscale 7], length 0
+02:48:25.556080 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706726241 ecr 0,nop,wscale 7], length 0
+02:48:26.591924 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706727277 ecr 0,nop,wscale 7], length 0
+02:48:27.604071 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706728289 ecr 0,nop,wscale 7], length 0
+02:48:28.630428 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706729315 ecr 0,nop,wscale 7], length 0
+02:48:30.644890 IP oklm-VirtualBox.34292 > 162.213.33.48.https: Flags [S], seq 2072303755, win 64240, options [mss 1460,sackOK,TS val 1706731330 ecr 0,nop,wscale 7], length 0
+02:48:32.857684 ARP, Request who-has _gateway tell oklm-VirtualBox, length 28
+02:48:32.858477 ARP, Reply _gateway is-at 52:54:00:12:35:02 (oui Unknown), length 46

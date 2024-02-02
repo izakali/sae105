@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultats</h1>
+    <div>
+        {% for line in markdown_content.split('\n') %}
+            {{ line|safe }}<br>
+        {% endfor %}
+        <img src="{{ url_for('static', filename='top_adresses_ip_source.png') }}" alt="Top 3 Adresses IP Source"><br>
+        <img src="{{ url_for('static', filename='types_de_flags.png') }}" alt="Types de Flags">
+    </div>
+</body>
+</html>
